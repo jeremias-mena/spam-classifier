@@ -1,5 +1,5 @@
 import math
-from typing import Set, Iterable, Tuple, Dict, List
+from typing import Set, Iterable, Tuple, Dict
 from collections import defaultdict
 from spam_classifier.utils import Message, Utils
 
