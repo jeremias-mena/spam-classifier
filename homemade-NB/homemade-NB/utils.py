@@ -9,3 +9,9 @@ class Utils:
         text = text.lower()
         all_words = re.findall("[a-z0-9']+", text)
         return set(all_words)
+    
+    def label_spam_column(value:str) -> bool:
+        if value.lower() == 'spam': 
+            return True
+        else:
+            return False
