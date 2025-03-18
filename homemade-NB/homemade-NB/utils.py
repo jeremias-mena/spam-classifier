@@ -1,4 +1,4 @@
-from typing import Set
+from typing import Set, NamedTuple
 import re
 
 class Utils:
@@ -15,3 +15,8 @@ class Utils:
             return True
         else:
             return False
+
+class Message(NamedTuple):
+    text: str
+    is_spam: bool
+
