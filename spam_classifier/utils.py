@@ -36,7 +36,7 @@ class Utils:
         rec = tp / (tp + fn)
         return rec
     
-    def f1_score(self, tp:int, fp:int, fn:int, tn:int) -> float:
+    def f1_score(self, tp:int, fp:int, fn:int) -> float:
         pre = self.precision(tp, fp)
         rec = self.recall(tp, fn)
         f1 = (2 * pre * rec) / (pre + rec)
