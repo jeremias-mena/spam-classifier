@@ -23,9 +23,9 @@ class NaiveBayesClf:
         for token in Utils().tokenize(message.text):
             self.tokens.add(token)
             if message.is_spam:
-                self.token_spam_counts += 1
+                self.token_spam_counts[token] += 1
             else:
-                self.token_ham_counts += 1
+                self.token_ham_counts[token] += 1
 
     def probabilities(self, token:str) -> Tuple[float, float]:
         spam = self.token_spam_counts[token]
