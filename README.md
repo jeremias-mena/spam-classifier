@@ -4,8 +4,6 @@ Este repositorio contiene un clasificador de spam basado en Naive Bayes, diseña
 
 ## 📌 Características
 
-* Preprocesamiento de datos con técnicas de NLP.
-
 * Tokenización de texto personalizada.
 
 * Implementación de un clasificador Naive Bayes desde cero.
