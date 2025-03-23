@@ -38,7 +38,7 @@ Este repositorio contiene un clasificador de spam basado en Naive Bayes, diseña
 
 Clona el repositorio:
 ```
-git clone https://github.com/tu-usuario/spam-classifier.git
+git clone https://github.com/jeremias-mena/spam-classifier.git
 ```
 ```
 cd spam-classifier
