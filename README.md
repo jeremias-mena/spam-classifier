@@ -13,7 +13,7 @@ Este repositorio contiene un clasificador de spam basado en Naive Bayes, diseña
 * Entrenamiento y evaluación del modelo con métricas para un modelo de clasificación.
 
 ## 📂 Estructura del Proyecto
-
+```
 📁 spam-classifier
 ├── 📂 spam_classifier   
     ├── 📂 data              
@@ -33,35 +33,37 @@ Este repositorio contiene un clasificador de spam basado en Naive Bayes, diseña
 ├── requirements.txt
 ├── .gitignore      
 ├── README.md
-├── setup.py            
+├── setup.py
+```    
 
 ## 🚀 Instalación
 
 Clona el repositorio:
-
-> git clone https://github.com/tu-usuario/spam-classifier.git
-> cd spam-classifier
+```
+git clone https://github.com/tu-usuario/spam-classifier.git
+```
+```
+cd spam-classifier
+```
 
 Instala las dependencias para poder utilizar este repositorio:
-
-> pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ## 🏃 Uso
-
 Entrenar el modelo
-
-> python train.py
+```
+python train.py
+```
 
 Realizar predicciones
-
-> python predict.py "Tu mensaje aquí"
-
+```
+python predict.py "Tu mensaje aquí"
+```
 ## 📊 Evaluación del Modelo
-
 El modelo se entrena con datos de correos electrónicos, separando el conjunto en entrenamiento y prueba. Se evalúa con métricas como precisión, recall y F1-score.
 
-
 ## 📫 Contacto
-
 Si tienes preguntas o sugerencias, no dudes en abrir un issue o contactarme en menajeremias08@gmail.com.
 
